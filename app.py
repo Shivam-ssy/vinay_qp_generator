@@ -59,10 +59,10 @@ def generate():
         
         # Serve the generated PDF
         return send_file(output_path, as_attachment=True)
-
+    \
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
     port = int(os.getenv("PORT", 5000))
-    app.run(port=port)
+    app.run(host="0.0.0.0",port=port)
 
