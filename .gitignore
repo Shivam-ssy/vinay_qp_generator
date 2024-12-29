@@ -1,0 +1,54 @@
+# Python bytecode files
+*.pyc
+*.pyo
+_pycache_/
+
+# Environment variables file
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Caches
+*.cache
+*.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# MacOS system files
+.DS_Store
+
+# Compiled library files
+*.so
+
+# Generated HTML
+*.html.__temp
+
+# Node modules (if frontend dependencies are added)
+node_modules/
+
+# Files related to packaging
+build/
+dist/
+*.egg-info/
