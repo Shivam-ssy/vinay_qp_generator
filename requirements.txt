@@ -2,3 +2,4 @@ Flask
 pdfplumber
 fpdf
 openai
+python-dotenv
